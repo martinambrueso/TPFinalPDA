@@ -17,7 +17,7 @@ Stack technologies used: Java, Spring Boot, Hibernate ORM, MySQL Database, Swagg
 1. Clone project: 
 
 ```
-git clone https://github.com/martinambrueso/TPFinalPDA/tree/master
+git clone https://github.com/martinambrueso/TPFinalPDA.git
 ```
 
 2. Move to project folder and in root directory run this comand: 
