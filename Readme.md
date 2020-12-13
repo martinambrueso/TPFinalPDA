@@ -26,3 +26,4 @@ Read the Tutorial - https://www.callicoder.com/hibernate-spring-boot-jpa-one-to-
 
 6. To view de documentation module, visit http://localhost:8080/swagger-ui.html/
 
+7. The base URL to test this app is: http://localhost:8080/api/v1
