@@ -64,3 +64,5 @@ git clone https://github.com/martinambrueso/TPFinalPDA.git
 ```
 mvn package && java -jar target/TPPDAFinal-0.0.1-SNAPSHOT.jar
 ```
+
+3. The application will be running on port 8080: http://localhost:8080/api/v1
