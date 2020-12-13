@@ -1,6 +1,6 @@
 # Hibernate Spring Boot and JPA
 
-Stack technologies used: Java, Hibernate ORM, MySQL Database, Swagger Docs, Docker container
+Stack technologies used: Java, Spring Boot, Hibernate ORM, MySQL Database, Swagger Docs, Docker container
 
 ## Setup the Application
 
