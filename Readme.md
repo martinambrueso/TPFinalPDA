@@ -14,7 +14,7 @@ Read the Tutorial - https://www.callicoder.com/hibernate-spring-boot-jpa-one-to-
 
 ## Setup with Dockerfile
 
-1. Clone project: git clone https://github.com/martinambrueso/TPFinalPDA
+1. Clone project: git clone https://github.com/martinambrueso/TPFinalPDA/tree/master
 
 2. Move to project folder and in root directory run this comand: mvn package
 
@@ -22,4 +22,7 @@ Read the Tutorial - https://www.callicoder.com/hibernate-spring-boot-jpa-one-to-
 
 4. If the status returned is success, then you will do run this command: docker build -t springio/gs-spring-boot-docker .
 
+5. And now, you can run this docker app with: docker run -p 8080:8080 springio/gs-spring-boot-docker
+
+6. To view de documentation module, visit http://localhost:8080/swagger-ui.html/
 
