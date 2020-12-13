@@ -47,3 +47,20 @@ docker run -p 8080:8080 springio/gs-spring-boot-docker
 6. To view de documentation module, visit http://localhost:8080/swagger-ui.html/
 
 7. The base URL to test this app is: http://localhost:8080/api/v1
+
+
+# Or local environment
+
+## You can run this projecto from your local device, only you need Apache Maven installed or Spring Boot Suit
+
+1. Clone project: 
+
+```
+git clone https://github.com/martinambrueso/TPFinalPDA.git
+```
+
+2. Move to project folder and in root directory run this comand: 
+
+```
+mvn package && java -jar target/TPPDAFinal-0.0.1-SNAPSHOT.jar
+```
