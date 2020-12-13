@@ -1,6 +1,6 @@
 # Hibernate Spring Boot and JPA
 
-Read the Tutorial - https://www.callicoder.com/hibernate-spring-boot-jpa-one-to-many-mapping-example/
+Stack technologies used: Java, Hibernate ORM, MySQL Database, Swagger Docs, Docker container
 
 ## Setup the Application
 
