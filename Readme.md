@@ -29,7 +29,7 @@ mvn package
 3. Move to folder project (C:\Users\{user}\Desktop\{folder_project}\target) and run command test inside to folder: 
 
 ```
-java -cp /TPPDAFinal-0.0.1-SNAPSHOT.jar com.example.jpa.TPPDAFinalRestApi.
+java -jar target/TPPDAFinal-0.0.1-SNAPSHOT.jar
 ```
 
 4. If the status returned is success, then you will do run this command: 
