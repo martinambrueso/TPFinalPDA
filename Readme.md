@@ -44,7 +44,7 @@ docker build -t springio/gs-spring-boot-docker .
 docker run -p 8080:8080 springio/gs-spring-boot-docker
 ```
 
-6. To view de documentation module, visit http://localhost:8080/swagger-ui.html/
+6. To view the documentation module, visit http://localhost:8080/swagger-ui.html/
 
 7. The base URL to test this app is: http://localhost:8080/api/v1
 
