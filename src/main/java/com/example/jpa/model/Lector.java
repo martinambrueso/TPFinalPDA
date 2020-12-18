@@ -1,10 +1,9 @@
 package com.example.jpa.model;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "lectores")
 public class Lector extends AuditModel {

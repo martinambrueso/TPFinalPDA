@@ -3,6 +3,7 @@ package com.example.jpa.model;
 import javax.persistence.*;
 
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "editoriales")
 public class Editorial extends AuditModel {

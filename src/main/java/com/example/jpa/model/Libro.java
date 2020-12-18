@@ -13,6 +13,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "libros")
 public class Libro extends AuditModel {

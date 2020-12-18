@@ -9,6 +9,7 @@ import javax.persistence.*;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "alquileres")
 public class Alquiler extends AuditModel {

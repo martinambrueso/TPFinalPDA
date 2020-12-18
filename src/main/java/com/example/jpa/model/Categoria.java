@@ -1,13 +1,9 @@
 package com.example.jpa.model;
 
-import com.fasterxml.jackson.annotation.*;
-
 import javax.persistence.*;
 
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
 
-
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "categorias")
 public class Categoria extends AuditModel {

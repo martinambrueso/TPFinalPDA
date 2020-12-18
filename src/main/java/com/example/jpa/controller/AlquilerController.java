@@ -12,6 +12,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 @CrossOrigin(origins = "http://localhost:8080")
@@ -33,6 +35,12 @@ public class AlquilerController {
     public Page<Alquiler> getAllAlquileresByLector(@PathVariable (value = "lectorId") Long lectorId,
                                                 Pageable pageable) {
         return alquilerRepository.findByLectorId(lectorId, pageable);
+    }
+    
+    @GetMapping("/lectores/{lectorId}/alquileres/getInfoDetailled")
+    public List<?> getInfoDetailled(@PathVariable (value = "lectorId") Long lectorId,
+                                                Pageable pageable) {
+        return alquilerRepository.getJoinInfo(lectorId);
     }
 
     @PostMapping("/lectores/{lectorId}/alquileres")
